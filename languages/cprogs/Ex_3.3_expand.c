@@ -20,7 +20,7 @@ int main(void)
 }
 
 int mgetline(char s[],int lim)
-{
+{//must return something, no?
 	int i,c;
 
 	for(i=0;i<lim-1 && (c=getchar())!=EOF && c!='\n';++i)
